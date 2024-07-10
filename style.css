@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.header{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.link{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    color: rgb(94, 3, 74);
+    transition: all 1s;
+
+}
+.link:hover{
+    color: rgb(220, 11, 188);
+    font-size: 25px;
+}
+#home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.intro{
+    padding: 30px;
+    font-size: 20px;
+}
+.intro-head{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.intro-body{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.intro-link{
+    text-decoration: none;
+    background-color: rgb(236, 77, 104);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#intro-blob{
+    height: 609px;
+    width: 662px;
+    position: absolute;
+    bottom: 77px;
+    left: 828px
+}
+#intro-img{
+    height: 300px;
+    width: 300px;
+    margin-left: 300px;
+    box-sizing: border-box;
+    position: relative;
+}
+#about{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    column-gap: 15px;
+}
+.abt-img>img{
+    width: 100%;
+}
+.abt-content>h1{
+    color: rgb(207, 110, 126);
+    margin-bottom: 30px;
+
+}
+.abt-content>p{
+    text-align: justify;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+.abt-content>p::first-line{
+    color: rgb(237, 141, 157);
+}
+.abt-content::first-letter{
+    
+
+}
